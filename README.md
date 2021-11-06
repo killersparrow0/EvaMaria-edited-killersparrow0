@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
-</p>
+### JUST KANGED FROM [EVA MARIA](https://github/MRK-YT/EcaMaria.com) ###
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>EvaMaria-Edited-Killersparrow0</b>
 </h1>
 
 
@@ -11,8 +9,8 @@
 [![Size](https://img.shields.io/github/repo-size/Killersparrow0/EvaMaria-edited-killersparrow0?style=flat-square&color=green)](https://github.com/Killersparrow0/EvaMaria-edited-killersparrow0/)   
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Killersparrow0/EvaMaria-edited-killersparrow0)   
 [![Contributors](https://img.shields.io/github/contributors/Killersparrow0/EvaMaria-edited-killersparrow0?style=flat-square&color=green)](https://github.com/Killersparrow0/EvaMaria-edited-killersparrow0/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/MRK-YT/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/MRK-YT/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvaMaria-edited-killersparrow0/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/EvaMaria-edited-killersparrow0.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
 
 
 ## Features
