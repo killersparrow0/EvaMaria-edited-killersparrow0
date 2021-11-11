@@ -7,10 +7,8 @@ class script(object):
 ✯ 𝑪𝒓𝒆𝒂𝒕𝒐𝒓: <a href=https://t.me/TeamEvamaria> 𝑻𝒆𝒂𝒎 𝑬𝒗𝒂 𝑴𝒂𝒓𝒊𝒂 </a>
 ✯ 𝑬𝒅𝒊𝒕𝒐𝒓 : <a href=https://t.me/elonmuskme> @𝒆𝒍𝒐𝒏𝒎𝒖𝒔𝒌𝒎𝒆 </a>
 ✯ 𝑳𝒊𝒃𝒓𝒂𝒓𝒚: <a href=https://docs.pyrogram.org/> 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 </a>
-✯ 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆: <a href=https://www.python.org/> 𝑷𝒚𝒕𝒉𝒐𝒏 3
- </a>
-✯ 𝑫𝒂𝒕𝒂 𝑩𝒂𝒔𝒆: <a href=http://mongodb.com> 𝑴𝒐𝒏𝒈𝒐 𝑫𝑩
- </a>
+✯ 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆: <a href=https://www.python.org/> 𝑷𝒚𝒕𝒉𝒐𝒏 3</a>
+✯ 𝑫𝒂𝒕𝒂 𝑩𝒂𝒔𝒆: <a href=http://mongodb.com> 𝑴𝒐𝒏𝒈𝒐 𝑫𝑩</a>
 ✯ 𝑩𝒐𝒕 𝑺𝒆𝒓𝒗𝒆𝒓: <a href=http://heroku.com> 𝑯𝒆𝒓𝒐𝒌𝒖 </a>
 ✯ 𝑩𝒖𝒊𝒍𝒅 𝑺𝒕𝒂𝒕𝒖𝒔: 𝒗1.0.1 [<a href=https://t.me/elonmuskme> 𝑪𝒖𝒔𝒕𝒐𝒎 𝒃𝒖𝒊𝒍𝒅 𝒐𝒇 @𝒆𝒍𝒐𝒏𝒎𝒖𝒔𝒌𝒎𝒆 </a> ]"""
     SOURCE_TXT = """<b>NOTE:</b>
