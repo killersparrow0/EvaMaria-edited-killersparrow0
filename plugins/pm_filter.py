@@ -622,7 +622,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
-        cap = f"🎬 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑴𝒐𝒗𝒊𝒆 : {search}\n📌 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑩𝒚 {msg.from_user.mention}\n‌\n 𝑰𝒎𝒅𝒃 𝑫𝒂𝒕𝒂:\n🏷 𝑻𝒊𝒕𝒍𝒆: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝑮𝒆𝒏𝒓𝒆𝒔: {imdb.get('genres')}\n📆 𝒀𝒆𝒂𝒓: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑹𝒂𝒕𝒊𝒏𝒈: <a href={imdb['url']}/ratings>{rating}</a> / 10 (𝒃𝒂𝒔𝒆𝒅 𝒐𝒏 {votes} 𝒖𝒔𝒆𝒓 𝒓𝒂𝒕𝒊𝒏𝒈𝒔.)"
+        cap = f"🎬 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑴𝒐𝒗𝒊𝒆 : {search}\n📌 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑩𝒚 {msg.from_user.mention}\n‌\n 𝑰𝒎𝒅𝒃 𝑫𝒂𝒕𝒂:\n🏷 𝑻𝒊𝒕𝒍𝒆: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝑮𝒆𝒏𝒓𝒆𝒔: {imdb.get('genres')}\n📆 𝒀𝒆𝒂𝒓: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑹𝒂𝒕𝒊𝒏𝒈: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10"
     else:
         cap = "Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
