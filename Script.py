@@ -14,6 +14,7 @@ class script(object):
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑬𝒗𝒂 𝑴𝒂𝒓𝒊𝒂 𝒊𝒔 𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - 𝑺𝒐𝒖𝒓𝒄𝒆 - https://github.com/EvamariaTG/EvaMaria  
+- 𝑪𝒖𝒔𝒕𝒐𝒎 𝒔𝒐𝒖𝒓𝒄𝒆 𝒐𝒇 @𝒆𝒍𝒐𝒏𝒎𝒖𝒔𝒌𝒎e - https://github.com/killersparrow0/EvaMaria-edited-killersparrow0
 
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
