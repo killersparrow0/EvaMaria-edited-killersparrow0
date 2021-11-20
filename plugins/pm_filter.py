@@ -622,7 +622,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
-        cap = f"🎬𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑴𝒐𝒗𝒊𝒆: {search}\nIMDb Data:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>"
+        cap = f"🎬𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑴𝒐𝒗𝒊𝒆: {search}\n🅸︎🅼︎🅳︎🅱︎ 🅳︎🅰︎🆃︎🅰︎:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>\n𝑱𝒐𝒊𝒏: <a href=https://t.me/movie_ott> 𝑴𝒐𝒗𝒊𝒆 𝒇𝒍𝒊𝒙 𝒈𝒓𝒐𝒖𝒑 </a>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
