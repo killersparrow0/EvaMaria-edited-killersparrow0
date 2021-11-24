@@ -1,7 +1,7 @@
 ### JUST KANGED FROM [EVA MARIA](https://github/MRK-YT/EcaMaria.com) ###
 
 <p align="center">
-  <img src="logo0.jpeg" alt="Eva Maria Logo">
+  <img src="logo0.jpeg" alt="EvaMaria-edited-killersparrow0">
 </p>
 <h1 align="center">
   <b> EvaMaria-edited-killersparrow0 </b>
