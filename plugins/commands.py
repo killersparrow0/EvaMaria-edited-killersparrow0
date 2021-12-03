@@ -44,6 +44,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ 𝐇𝐞𝐥𝐩', callback_data='help'),
             InlineKeyboardButton('😊 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            ],[
+            InlineKeyboardButton('🌟 𝐑𝐚𝐭𝐞 𝐦𝐞', url=f"https://t.me/songs_movies/498"),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
