@@ -9,4 +9,3 @@ imdbpy
 youtube-dl
 youtube_search
 requests
-sudo pip install -U youtube-dl
