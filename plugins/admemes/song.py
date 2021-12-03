@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 
-import youtube_dl
+import youtube-dl
 from youtube_search import YoutubeSearch
 import requests
 
