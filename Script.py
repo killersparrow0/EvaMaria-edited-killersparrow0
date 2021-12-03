@@ -55,13 +55,13 @@ class script(object):
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 🌸
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    SONG_TXT ="""<b>SONG MODULE</b>
+    SONG_TXT ="""<b>S MODULE</b>
 Song Download
 
 Song Download Module, For Those Who Love Music
