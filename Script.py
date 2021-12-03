@@ -61,7 +61,15 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+     SONG_TXT ="""<b>SONG MODULE</b>
+Song Download
+Song Download Module, For Those Who Love Music
+ Command
+- /s [Song Name] - To Download Music
+- working pm and groups"""
+
     ADMIN_TXT = """Help: <b>Admin mods</b>
+            
 <b>NOTE:</b>
 This module only works for my admins
 <b>Commands and Usage:</b>
