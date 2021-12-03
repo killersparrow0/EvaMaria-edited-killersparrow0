@@ -63,9 +63,11 @@ these are the extra features of Eva Maria
 • /search  - <code>get the film information from various sources.</code>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
+
 Song Download Module, For Those Who Love Music
 🎈 Command
-- /song [Song Name] - To Download Music
+
+- /s [Song Name] - To Download Music
 Usage
 - working pm and groups"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
