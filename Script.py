@@ -61,7 +61,7 @@ these are the extra features of 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 �
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    SONG_TXT ="""<b>S MODULE</b>
+    SONG_TXT ="""song: <b>SONG MODULE</b>
 Song Download
 
 Song Download Module, For Those Who Love Music
