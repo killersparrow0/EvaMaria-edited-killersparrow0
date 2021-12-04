@@ -55,25 +55,25 @@ class script(object):
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 🌸
+𝒕𝒉𝒆𝒔𝒆 𝒂𝒓𝒆 𝒕𝒉𝒆 𝒆𝒙𝒕𝒓𝒂 𝒇𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒐𝒇 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 🌸
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    song_TXT ="""<b>SONG MODULE</b>
-Song Download
+    SONG_TXT ="""<b>𝐒𝐎𝐍𝐆 𝐌𝐎𝐃𝐔𝐋𝐄</b>
+ 𝐒𝐨𝐧𝐠 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝
 
-Song Download Module, For Those Who Love Music
-🎈 Command
+𝐒𝐨𝐧𝐠 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐨𝐝𝐮𝐥𝐞, 𝐅𝐨𝐫 𝐓𝐡𝐨𝐬𝐞 𝐖𝐡𝐨 𝐋𝐨𝐯𝐞 𝐌𝐮𝐬𝐢𝐜
+🎈 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
 
-- /s [Song Name] - To Download Music
-Usage
-- working pm and groups"""
+- /𝐬 [𝐒𝐨𝐧𝐠 𝐍𝐚𝐦𝐞] - 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐮𝐬𝐢𝐜
+𝐔𝐬𝐚𝐠𝐞
+- 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 𝐩𝐦 𝐚𝐧𝐝 𝐠𝐫𝐨𝐮𝐩𝐬"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
             
 <b>NOTE:</b>
-This module only works for my admins
+𝑻𝒉𝒊𝒔 𝒎𝒐𝒅𝒖𝒍𝒆 𝒐𝒏𝒍𝒚 𝒘𝒐𝒓𝒌𝒔 𝒇𝒐𝒓 𝒎𝒚 𝒂𝒅𝒎𝒊𝒏𝒔, 𝒔𝒐 𝒅𝒐𝒏’𝒕 𝒘𝒂𝒔𝒕𝒆 𝒚𝒐𝒖𝒓 𝒕𝒊𝒎𝒆 😏
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
