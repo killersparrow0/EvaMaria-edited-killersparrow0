@@ -73,7 +73,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("Eth ningaluku ollathualla..!!\nRequest ur own files, then click here🙂", show_alert=True)
+        return await query.answer("Eth ningaluku ollathualla..!!\nThis is not for you.\n\nRequest ur own files, then click here🙂", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -159,7 +159,7 @@ async def advantage_spoll_choker(bot, query):
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit('This Movie Not Found In DataBase')
+        k = await query.message.edit('This Movie Not Found In DataBase👩🏻‍💻')
         await asyncio.sleep(10)
         await k.delete()
 
@@ -635,7 +635,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
-        cap = f"📌𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {message.from_user.mention}\n𝐈𝐌𝐃𝐛 𝐝𝐚𝐭𝐚:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>\n\n𝑱𝒐𝒊𝒏: <a href=https://t.me/movie_ott> 𝑴𝒐𝒗𝒊𝒆 𝒇𝒍𝒊𝒙 𝒈𝒓𝒐𝒖𝒑 </a>"
+        cap = f"📌𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {message.from_user.mention}\n𝐈𝐌𝐃𝐛 𝐝𝐚𝐭𝐚:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>\n\n𝑱𝒐𝒊𝒏: <a href=https://t.me/movie_ott> 𝑴𝒐𝒗𝒊𝒆 𝒇𝒍𝒊𝒙 𝒈𝒓𝒐𝒖𝒑</a>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -653,7 +653,7 @@ async def auto_filter(client, msg, spoll=False):
         
 
 async def advantage_spell_chok(msg):
-    query = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|send|snd|movie(s)?|new|latest|br((o|u)h?)*|^h(e)?(l)*(o)*|mal(ayalam)?|tamil|file|that|give|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle)", "", msg.text) # plis contribute some common words 
+    query = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|send|snd|movie(s)?|new|latest|br((o|u)h?)*|^h(e)?(l)*(o)*|mal(ayalam)?|tamil|file|that|give|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle)", "", msg.text) # pliz contribute some common words 
     query = query.strip()
     if not query:
         k = await msg.reply("No valid movie name given")
