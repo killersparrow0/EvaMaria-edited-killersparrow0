@@ -1,6 +1,5 @@
 from pyrogram import Client, filters
 
-import ffmpeg
 import youtube_dl
 from youtube_search import YoutubeSearch
 import requests
