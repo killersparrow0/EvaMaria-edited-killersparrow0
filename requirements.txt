@@ -10,3 +10,4 @@ youtube_dl
 youtube_search
 requests
 ffmpeg
+avconv
