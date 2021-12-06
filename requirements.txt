@@ -9,3 +9,4 @@ imdbpy
 youtube_dl
 youtube_search
 requests
+ffmpeg
