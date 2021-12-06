@@ -6,6 +6,6 @@ marshmallow==3.12.2
 umongo==3.0.0
 requests
 imdbpy
-youtube-dl
+sudo youtube-dl -U
 youtube_search
 requests
