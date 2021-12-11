@@ -23,7 +23,7 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('🌸Finding Your Song🎸.....')
+    m = message.reply('🌸 𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐒𝐨𝐧𝐠 🎸••••')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -62,17 +62,17 @@ def a(client, message):
         )
         print(str(e))
         return
-    m.edit("🔼🎵...")
-    m.edit("⏫.🎵..")
-    m.edit("🔼..🎵.")
-    m.edit("⏫...🎵")
+    m.edit("🔼🎵•••")
+    m.edit("⏫•🎵••")
+    m.edit("🔽••🎵•")
+    m.edit("⏬•••🎵")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎹 <b> 𝑻𝒊𝒕𝒍𝒆:</b> <a href="{link}">{title}</a>\n🎙️ <b>𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏:</b> <code>{duration}</code>\n🎵 <b>𝑽𝒊𝒆𝒘𝒔:</b> <code>{views}</code>'
-        secmul, dur, dur_arr = 1, 0, duration.split(':')
+        rep = f'🎹 <b> 𝑻𝒊𝒕𝒍𝒆:</b> <a href="{link}">{title}</a>\n🎙️ <b>𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏:</b> <code>{duration}</code>\n🎵 <b>𝑽𝒊𝒆𝒘𝒔:</b> <code>{views}</code>\n🔼𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒃𝒚: <a href=https://t.me/meenu_filter_bot> 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 🌸 </a>  '
+       secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
@@ -80,7 +80,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**𝐀𝐧 𝐄𝐫𝐫𝐨𝐫 𝐎𝐜𝐜𝐮𝐫𝐞𝐝!**')
+        m.edit('**𝐀𝐧 𝐄𝐫𝐫𝐨𝐫 𝐎𝐜𝐜𝐮𝐫𝐞𝐝 ❌ \n𝐏𝐥𝐞𝐚𝐬𝐞 𝐭𝐫𝐲 𝐚𝐠𝐚𝐢𝐧 𝐥𝐚𝐭𝐞𝐫 🙂**')
         print(e)
     try:
         os.remove(audio_file)
