@@ -72,7 +72,7 @@ def a(client, message):
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
         rep = f'🎹 <b> 𝑻𝒊𝒕𝒍𝒆:</b> <a href="{link}">{title}</a>\n🎙️ <b>𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏:</b> <code>{duration}</code>\n🎵 <b>𝑽𝒊𝒆𝒘𝒔:</b> <code>{views}</code>\n🔼𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒃𝒚: <a href=https://t.me/meenu_filter_bot> 𝑵𝒂𝒕𝒂𝒍𝒊𝒂 𝑫𝒚𝒆𝒓 🌸 </a>  '
-       secmul, dur, dur_arr = 1, 0, duration.split(':')
+        secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
