@@ -682,7 +682,7 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="Close", callback_data='close_data')])
     m = await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDdeJhtGTzIb')
+    return
     await asyncio.sleep(6)
     await m.delete()
