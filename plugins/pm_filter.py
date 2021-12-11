@@ -683,6 +683,8 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data='close_data')])
-    m = await msg.reply("𝙉𝙤𝙩 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙍𝙞𝙜𝙝𝙩 𝙉𝙤𝙬\n𝙋𝙤𝙨𝙨𝙞𝙗𝙡𝙚 𝘾𝙖𝙪𝙨𝙚𝙨 : 🤔\n\n⭕️ Not released yet\n⭕️ Search in Google for correct spelling\n⭕️Dont use Symbols\n⭕ Asking theatre prints\n⭕ Not in Database")
+    m = await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDdeJhtGTzIb')
+
+            return
     await asyncio.sleep(6)
     await m.delete()
