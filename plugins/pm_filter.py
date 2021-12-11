@@ -682,7 +682,5 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    m = await msg.reply_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDdeJhtGTzIb')
-    return
-    await asyncio.sleep(6)
-    await m.delete()
+    btn.append([InlineKeyboardButton(text="Close", callback_data='close_data')])
+    await msg.reply(f'👋Hey {msg.from_user.mention}\nI cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
