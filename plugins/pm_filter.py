@@ -682,7 +682,7 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    m = await msg.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDdeJhtGTzIb')
+    m = await msg.reply_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDdeJhtGTzIb')
     return
     await asyncio.sleep(6)
     await m.delete()
