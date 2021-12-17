@@ -39,7 +39,7 @@ class script(object):
 <b>𝐔𝐑𝐋 𝐛𝐮𝐭𝐭𝐨𝐧𝐬:</b>
 <code>[Button Text](url:https://t.me/elonmuskme)</code>
 <b>Alert buttons:</b>
-<code>[Button Text](alert:This is an alert message)</code>"""
+<code>[Button Text](popup:This is an popup message)</code>"""
     AUTOFILTER_TXT = """𝐇𝐞𝐥𝐩: <b>𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫</b>
 <b>𝐍𝐎𝐓𝐄:</b>
 1. 𝑴𝒂𝒌𝒆 𝒎𝒆 𝒕𝒉𝒆 𝒂𝒅𝒎𝒊𝒏 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒊𝒇 𝒊𝒕'𝒔 𝒑𝒓𝒊𝒗𝒂𝒕𝒆.
