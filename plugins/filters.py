@@ -180,7 +180,7 @@ async def get_all(client, message):
         parse_mode="md"
     )
         
-@Client.on_message(filters.command('del') & filters.incoming)
+@Client.on_message(filters.command('rem') & filters.incoming)
 async def deletefilter(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -220,7 +220,7 @@ async def deletefilter(client, message):
     except:
         await message.reply_text(
             "<i>Mention the filtername which you wanna delete!</i>\n\n"
-            "<code>/del filtername</code>\n\n"
+            "<code>/rem filtername</code>\n\n"
             "Use /viewfilters to view all available filters",
             quote=True
         )
