@@ -24,6 +24,8 @@ class script(object):
 2. 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐚𝐝𝐝 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 𝐢𝐧 𝐚 𝐜𝐡𝐚𝐭.
 3. 𝐚𝐥𝐞𝐫𝐭 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐡𝐚𝐯𝐞 𝐚 𝐥𝐢𝐦𝐢𝐭 𝐨𝐟 64 𝐜𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐬.
 <b>𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:</b>
+
+• /plus - <code>𝐚𝐝𝐝 𝐚 𝐟𝐢𝐥𝐭𝐞𝐫 𝐢𝐧 𝐜𝐡𝐚𝐭</code>
 • /filter - <code>𝐚𝐝𝐝 𝐚 𝐟𝐢𝐥𝐭𝐞𝐫 𝐢𝐧 𝐜𝐡𝐚𝐭</code>
 • /filters - <code>𝐥𝐢𝐬𝐭 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 𝐨𝐟 𝐚 𝐜𝐡𝐚𝐭</code>
 • /del - <code>𝐝𝐞𝐥𝐞𝐭𝐞 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐟𝐢𝐥𝐭𝐞𝐫 𝐢𝐧 𝐜𝐡𝐚𝐭</code>
@@ -35,9 +37,9 @@ class script(object):
 2. 𝑬𝒗𝒂 𝑴𝒂𝒓𝒊𝒂 𝒔𝒖𝒑𝒑𝒐𝒓𝒕𝒔 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒘𝒊𝒕𝒉 𝒂𝒏𝒚 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝒎𝒆𝒅𝒊𝒂 𝒕𝒚𝒑𝒆.
 3. 𝑩𝒖𝒕𝒕𝒐𝒏𝒔 𝒔𝒉𝒐𝒖𝒍𝒅 𝒃𝒆 𝒑𝒓𝒐𝒑𝒆𝒓𝒍𝒚 𝒑𝒂𝒓𝒔𝒆𝒅 𝒂𝒔 𝒎𝒂𝒓𝒌𝒅𝒐𝒘𝒏 𝒇𝒐𝒓𝒎𝒂𝒕.
 <b>𝐔𝐑𝐋 𝐛𝐮𝐭𝐭𝐨𝐧𝐬:</b>
-<code>[Button Text](buttonurl:https://t.me/elonmuskme)</code>
+<code>[Button Text](url:https://t.me/elonmuskme)</code>
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+<code>[Button Text](alert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """𝐇𝐞𝐥𝐩: <b>𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫</b>
 <b>𝐍𝐎𝐓𝐄:</b>
 1. 𝑴𝒂𝒌𝒆 𝒎𝒆 𝒕𝒉𝒆 𝒂𝒅𝒎𝒊𝒏 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒊𝒇 𝒊𝒕'𝒔 𝒑𝒓𝒊𝒗𝒂𝒕𝒆.
