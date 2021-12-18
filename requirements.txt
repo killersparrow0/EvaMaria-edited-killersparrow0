@@ -9,5 +9,3 @@ imdbpy
 youtube-dl
 youtube_search
 requests
-countryinfo
-userge
