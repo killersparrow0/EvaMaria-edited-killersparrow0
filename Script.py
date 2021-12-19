@@ -10,12 +10,9 @@ class script(object):
 ✯ 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆: <a href=https://www.python.org/> 𝑷𝒚𝒕𝒉𝒐𝒏 3</a>
 ✯ 𝑫𝒂𝒕𝒂 𝑩𝒂𝒔𝒆: <a href=http://mongodb.com> 𝑴𝒐𝒏𝒈𝒐 𝑫𝑩</a>
 ✯ 𝑩𝒐𝒕 𝑺𝒆𝒓𝒗𝒆𝒓: <a href=http://heroku.com> 𝑯𝒆𝒓𝒐𝒌𝒖 </a>
-✯ 𝑩𝒖𝒊𝒍𝒅 𝑺𝒕𝒂𝒕𝒖𝒔: 𝒗1.0.1 [<a href=https://t.me/elonmuskme> 𝑪𝒖𝒔𝒕𝒐𝒎 𝒃𝒖𝒊𝒍𝒅 𝒐𝒇 @𝒆𝒍𝒐𝒏𝒎𝒖𝒔𝒌𝒎𝒆 </a> ]"""
+✯ 𝑩𝒖𝒊𝒍𝒅 𝑺𝒕𝒂𝒕𝒖𝒔: 𝒗1.0.1 [<a href=https://t.me/elonmuskme> 𝑪𝒖𝒔𝒕𝒐𝒎 𝒃𝒖𝒊𝒍𝒅</a> ]"""
     SOURCE_TXT = """<b>𝐍𝐎𝐓𝐄:</b>
-- 𝑬𝒗𝒂 𝑴𝒂𝒓𝒊𝒂 𝒊𝒔 𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- 𝑺𝒐𝒖𝒓𝒄𝒆 - https://github.com/EvamariaTG/EvaMaria  
-<b>𝐃𝐄𝐕𝐒:</b>
-- <a href=https://t.me/TeamEvamaria>𝑻𝒆𝒂𝒎 𝑬𝒗𝒂 𝑴𝒂𝒓𝒊𝒂</a>
+- 𝑪𝒍𝒐𝒔𝒆𝒅 𝒔𝒐𝒖𝒓𝒄𝒆 
 -𝑬𝒅𝒊𝒕𝒐𝒓: <a href=https://t.me/elonmuskme>𝒆𝒍𝒐𝒏𝒎𝒖𝒔𝒌𝒎𝒆</a>"""
     MANUELFILTER_TXT = """𝐇𝐞𝐥𝐩: <b>𝐅𝐢𝐥𝐭𝐞𝐫𝐬</b>
 - 𝐅𝐢𝐥𝐭𝐞𝐫 𝐢𝐬 𝐭𝐡𝐞 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐰𝐞𝐫𝐞 𝐮𝐬𝐞𝐫𝐬 𝐜𝐚𝐧 𝐬𝐞𝐭 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐫𝐞𝐩𝐥𝐢𝐞𝐬 𝐟𝐨𝐫 𝐚 𝐩𝐚𝐫𝐭𝐢𝐜𝐮𝐥𝐚𝐫 𝐤𝐞𝐲𝐰𝐨𝐫𝐝 𝐚𝐧𝐝 𝐄𝐯𝐚𝐌𝐚𝐫𝐢𝐚 𝐰𝐢𝐥𝐥 𝐫𝐞𝐬𝐩𝐨𝐧𝐝 𝐰𝐡𝐞𝐧𝐞𝐯𝐞𝐫 𝐚 𝐤𝐞𝐲𝐰𝐨𝐫𝐝 𝐢𝐬 𝐟𝐨𝐮𝐧𝐝 𝐭𝐡𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞
