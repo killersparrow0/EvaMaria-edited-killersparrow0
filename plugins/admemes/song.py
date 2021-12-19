@@ -66,6 +66,7 @@ def a(client, message):
     m.edit("⏫•🎵••")
     m.edit("🔽••🎵•")
     m.edit("⏬•••🎵")
+    m.edit("ℙ𝕝𝕖𝕒𝕤𝕖 𝕨𝕒𝕚𝕥 𝕚𝕥 𝕞𝕒𝕪 𝕥𝕒𝕜𝕖 𝕤𝕠𝕞𝕖 𝕥𝕚𝕞𝕖.")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
