@@ -9,3 +9,4 @@ imdbpy
 youtube-dl
 youtube_search
 requests
+tmdbv3api==1.6.1
