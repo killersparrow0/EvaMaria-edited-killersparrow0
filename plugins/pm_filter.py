@@ -635,7 +635,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
-        cap = f"📌𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {message.from_user.mention}\n𝐈𝐌𝐃𝐛 𝐝𝐚𝐭𝐚:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>\n📀 𝑅𝑢𝑛𝑇𝑖𝑚𝑒: {runtime} 𝑀𝑖𝑛𝑢𝑡𝑒𝑠\n📆 𝑅𝑒𝑙𝑒𝑎𝑠𝑒 𝐼𝑛𝑓𝑜 : {release_date}\n🎛 𝐶𝑜𝑢𝑛𝑡𝑟𝑖𝑒𝑠 : <code>{countries}</code>\n\n© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 {message.chat.title}\n𝑱𝒐𝒊𝒏: <a href=https://t.me/movie_ott> 𝑴𝒐𝒗𝒊𝒆 𝒇𝒍𝒊𝒙 𝒈𝒓𝒐𝒖𝒑</a>"
+        cap = f"📌𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {message.from_user.mention}\n𝐈𝐌𝐃𝐛 𝐝𝐚𝐭𝐚:\n🏷 𝑇𝑖𝑡𝑙𝑒: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝐺𝑒𝑛𝑟𝑒𝑠: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝑅𝑎𝑡𝑖𝑛𝑔: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>/10</code>\n📆 𝑅𝑒𝑙𝑒𝑎𝑠𝑒 𝐼𝑛𝑓𝑜 : {release_date}\n🎛 𝐶𝑜𝑢𝑛𝑡𝑟𝑖𝑒𝑠 : <code>{countries}</code>\n\n© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 {message.chat.title}\n𝑱𝒐𝒊𝒏: <a href=https://t.me/movie_ott> 𝑴𝒐𝒗𝒊𝒆 𝒇𝒍𝒊𝒙 𝒈𝒓𝒐𝒖𝒑</a>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
