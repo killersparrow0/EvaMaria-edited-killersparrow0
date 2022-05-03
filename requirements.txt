@@ -12,3 +12,4 @@ requests
 aiohttp
 aiofiles
 asyncio
+wget
